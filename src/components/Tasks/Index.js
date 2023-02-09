@@ -346,7 +346,7 @@ class Index extends Component {
             this.setState({
                 loading: false, //Hide loading
                 inputPSForm: data.result,
-                typeTask: constant.EXPERIMENT_TYPE_SHORT
+                typeTask: constant.EXPERIMENT_TYPE_LONG
             }, () => {
                 if (DEBUG) console.log(this.state)
                 this._goToNextTaskInInputNavigation();

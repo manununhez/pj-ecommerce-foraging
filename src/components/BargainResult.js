@@ -90,7 +90,7 @@ export default class BargainResult extends React.Component {
           <h5>Partial sessions</h5>
           {getTable(this.state.usersPartial, PARTIAL_COMPLETED_SESSION)}
           <br /><br />
-          <h5>Participants count <h6><NavLink href={"https://api.swps-pjatk-experiment.pl/v3/participants-count-result"}>Download</NavLink></h6></h5>
+          <h5>Participants count <h6><NavLink href={"https://api.swps-pjatk-experiment.co/v3/participants-count-result"}>Download</NavLink></h6></h5>
           <br /><br />
         </div>
       </>
@@ -146,19 +146,19 @@ function getAllUsersBody(resultsType) {
       {resultsType === COMPLETED_SESSION ? "Finished sessions" : "Partial sessions"}
     </td>
     <td style={{ textAlign: "-moz-center" }}>
-      <NavLink href={"https://api.swps-pjatk-experiment.pl/v3/bargains-result/" + resultsType}>Download</NavLink>
+      <NavLink href={"https://api.swps-pjatk-experiment.co/v3/bargains-result/" + resultsType}>Download</NavLink>
     </td>
     <td style={{ textAlign: "-moz-center" }}>
-      <NavLink href={"https://api.swps-pjatk-experiment.pl/v3/bargains-result-per-store/" + resultsType}>Download</NavLink>
+      <NavLink href={"https://api.swps-pjatk-experiment.co/v3/bargains-result-per-store/" + resultsType}>Download</NavLink>
     </td>
     <td style={{ textAlign: "-moz-center" }}>
-      <NavLink href={"https://api.swps-pjatk-experiment.pl/v3/survey-result/" + resultsType}>Download</NavLink>
+      <NavLink href={"https://api.swps-pjatk-experiment.co/v3/survey-result/" + resultsType}>Download</NavLink>
     </td>
     <td style={{ textAlign: "-moz-center" }}>
-      <NavLink href={"https://api.swps-pjatk-experiment.pl/v3/demographic-result/" + resultsType}>Download</NavLink>
+      <NavLink href={"https://api.swps-pjatk-experiment.co/v3/demographic-result/" + resultsType}>Download</NavLink>
     </td>
     <td style={{ textAlign: "-moz-center" }}>
-      <NavLink href={"https://api.swps-pjatk-experiment.pl/v3/memory-result/" + resultsType}>Download</NavLink>
+      <NavLink href={"https://api.swps-pjatk-experiment.co/v3/memory-result/" + resultsType}>Download</NavLink>
     </td>
   </tr>
 }
@@ -177,19 +177,19 @@ function getTableBody(users, resultsType) {
           {timestamp}
         </td>
         <td style={{ textAlign: "-moz-center" }}>
-          <NavLink href={"https://api.swps-pjatk-experiment.pl/v3/bargains-result/" + resultsType + "/" + users[i].user_id}>Download</NavLink>
+          <NavLink href={"https://api.swps-pjatk-experiment.co/v3/bargains-result/" + resultsType + "/" + users[i].user_id}>Download</NavLink>
         </td>
         <td style={{ textAlign: "-moz-center" }}>
-          <NavLink href={"https://api.swps-pjatk-experiment.pl/v3/bargains-result-per-store/" + resultsType + "/" + users[i].user_id}>Download</NavLink>
+          <NavLink href={"https://api.swps-pjatk-experiment.co/v3/bargains-result-per-store/" + resultsType + "/" + users[i].user_id}>Download</NavLink>
         </td>
         <td style={{ textAlign: "-moz-center" }}>
-          <NavLink href={"https://api.swps-pjatk-experiment.pl/v3/survey-result/" + resultsType + "/" + users[i].user_id}>Download</NavLink>
+          <NavLink href={"https://api.swps-pjatk-experiment.co/v3/survey-result/" + resultsType + "/" + users[i].user_id}>Download</NavLink>
         </td>
         <td style={{ textAlign: "-moz-center" }}>
-          <NavLink href={"https://api.swps-pjatk-experiment.pl/v3/demographic-result/" + resultsType + "/" + users[i].user_id}>Download</NavLink>
+          <NavLink href={"https://api.swps-pjatk-experiment.co/v3/demographic-result/" + resultsType + "/" + users[i].user_id}>Download</NavLink>
         </td>
         <td style={{ textAlign: "-moz-center" }}>
-          <NavLink href={"https://api.swps-pjatk-experiment.pl/v3/memory-result/" + resultsType + "/" + users[i].user_id}>Download</NavLink>
+          <NavLink href={"https://api.swps-pjatk-experiment.co/v3/memory-result/" + resultsType + "/" + users[i].user_id}>Download</NavLink>
         </td>
       </tr>
     )

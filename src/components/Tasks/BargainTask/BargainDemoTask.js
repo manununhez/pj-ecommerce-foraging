@@ -31,16 +31,16 @@ export default function BargainDemoTask(props) {
 
     const storeLists = [{
         storeNumber: 1, bargainsNumber: 4, delay: 10, showFeedback: false, products: [
-            { productNumber: 1, isBargain: false, oldPrice: 227, newPrice: 140.74, discount: 0.38, numOfStars: 5, img: "https://api.swps-pjatk-experiment.pl/v3/img/12picture.jpg" },
-            { productNumber: 2, isBargain: true, oldPrice: 113, newPrice: 36.16, discount: 0.68, numOfStars: 5, img: "https://api.swps-pjatk-experiment.pl/v3/img/71jewelry_picture.jpg" },
-            { productNumber: 3, isBargain: false, oldPrice: 125, newPrice: 63.75, discount: 0.49, numOfStars: 5, img: "https://api.swps-pjatk-experiment.pl/v3/img/31jewelry_picture.jpg" },
-            { productNumber: 4, isBargain: false, oldPrice: 113, newPrice: 82.49, discount: 0.27, numOfStars: 5, img: "https://api.swps-pjatk-experiment.pl/v3/img/39jewelry_picture.jpg" },
-            { productNumber: 5, isBargain: false, oldPrice: 257, newPrice: 131.07, discount: 0.49, numOfStars: 3, img: "https://api.swps-pjatk-experiment.pl/v3/img/3electron_picture.jpg" },
-            { productNumber: 6, isBargain: false, oldPrice: 142, newPrice: 21.3, discount: 0.85, numOfStars: 1, img: "https://api.swps-pjatk-experiment.pl/v3/img/57jewelry_picture.jpg" },
-            { productNumber: 7, isBargain: false, oldPrice: 266, newPrice: 135.66, discount: 0.49, numOfStars: 2, img: "https://api.swps-pjatk-experiment.pl/v3/img/28jewelry_picture.jpg" },
-            { productNumber: 8, isBargain: false, oldPrice: 188, newPrice: 142.88, discount: 0.24, numOfStars: 3, img: "https://api.swps-pjatk-experiment.pl/v3/img/46jewelry_picture.jpg" },
-            { productNumber: 9, isBargain: false, oldPrice: 275, newPrice: 206.25, discount: 0.25, numOfStars: 6, img: "https://api.swps-pjatk-experiment.pl/v3/img/20electron_picture.jpg" },
-            { productNumber: 10, isBargain: false, oldPrice: 275, newPrice: 176, discount: 0.36, numOfStars: 2, img: "https://api.swps-pjatk-experiment.pl/v3/img/6picture.jpg" }
+            { productNumber: 1, isBargain: false, oldPrice: 227, newPrice: 140.74, discount: 0.38, numOfStars: 5, img: "https://api.swps-pjatk-experiment.co/v3/img/12picture.jpg" },
+            { productNumber: 2, isBargain: true, oldPrice: 113, newPrice: 36.16, discount: 0.68, numOfStars: 5, img: "https://api.swps-pjatk-experiment.co/v3/img/71jewelry_picture.jpg" },
+            { productNumber: 3, isBargain: false, oldPrice: 125, newPrice: 63.75, discount: 0.49, numOfStars: 5, img: "https://api.swps-pjatk-experiment.co/v3/img/31jewelry_picture.jpg" },
+            { productNumber: 4, isBargain: false, oldPrice: 113, newPrice: 82.49, discount: 0.27, numOfStars: 5, img: "https://api.swps-pjatk-experiment.co/v3/img/39jewelry_picture.jpg" },
+            { productNumber: 5, isBargain: false, oldPrice: 257, newPrice: 131.07, discount: 0.49, numOfStars: 3, img: "https://api.swps-pjatk-experiment.co/v3/img/3electron_picture.jpg" },
+            { productNumber: 6, isBargain: false, oldPrice: 142, newPrice: 21.3, discount: 0.85, numOfStars: 1, img: "https://api.swps-pjatk-experiment.co/v3/img/57jewelry_picture.jpg" },
+            { productNumber: 7, isBargain: false, oldPrice: 266, newPrice: 135.66, discount: 0.49, numOfStars: 2, img: "https://api.swps-pjatk-experiment.co/v3/img/28jewelry_picture.jpg" },
+            { productNumber: 8, isBargain: false, oldPrice: 188, newPrice: 142.88, discount: 0.24, numOfStars: 3, img: "https://api.swps-pjatk-experiment.co/v3/img/46jewelry_picture.jpg" },
+            { productNumber: 9, isBargain: false, oldPrice: 275, newPrice: 206.25, discount: 0.25, numOfStars: 6, img: "https://api.swps-pjatk-experiment.co/v3/img/20electron_picture.jpg" },
+            { productNumber: 10, isBargain: false, oldPrice: 275, newPrice: 176, discount: 0.36, numOfStars: 2, img: "https://api.swps-pjatk-experiment.co/v3/img/6picture.jpg" }
         ]
     }];
 
