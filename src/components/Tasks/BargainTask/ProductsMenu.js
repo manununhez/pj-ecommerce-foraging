@@ -16,7 +16,7 @@ export default function ProductsMenu(props) {
 
     return (<div className="scroll-menu" style={{ backgroundColor: backgroundColorItem }}>
         <Row style={{ backgroundColor: "white", height: "60px", padding: "15px", marginBottom: "20px", marginRight: "auto", marginLeft: "auto" }}>
-            <Col xs="2"><img style={{ maxHeight: "35px" }} src="https://assets.allegrostatic.com/metrum/brand/allegro-347440b030.svg" alt="" /></Col>
+            <Col xs="2"></Col>
             <Col xs="6">
                 <Row>
                     <Col xs="10"><Input placeholder="what are you looking for?" style={{ backgroundColor: "white" }} type="search" disabled /></Col>
